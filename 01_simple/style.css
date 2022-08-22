@@ -1,0 +1,84 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.boxs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 760px;
+}
+.box2 {
+    flex-direction: row;
+}
+
+h1 {
+    background-color: red;
+    padding: 10px;
+}
+
+
+p{
+    margin: 20px 0px;
+    line-height: 23px;
+}
+
+.cars {
+    border: 3px dotted black;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+
+.hstyle {
+    color: #ffffff;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+h2 {
+    background-color: black;
+    margin: 20px 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+.first_italic {
+    font-style: italic;
+}
+
+.bold_lorem {
+    font-weight: bold;
+}
+
+.second_italic {
+    font-style: italic;
+    color: blue;
+}
+
+.blue_text {
+    color: blue;
+}
+
